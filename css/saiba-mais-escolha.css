@@ -1,0 +1,268 @@
+/*Estilização conteúdo geral*/
+
+content div.content {
+
+}
+
+.hidden {
+	display: none;
+}
+
+/*Header - ícone-back*/
+
+div.header {
+	width: 100%;
+	position: fixed;
+	overflow: hidden;
+}
+
+div.header a {
+	text-decoration: none;
+}
+
+div.header .glyphicon-chevron-left {
+	display: block;
+	margin: 5px;
+	margin-left: 20px;
+	margin-bottom: 7px;
+	padding-top: 3px;
+	font-size: 25px;
+	color: #C4CBCF;
+	text-decoration: none;
+}
+
+div.header .glyphicon span {
+	font-family: "unimed-book";
+}
+
+div.header .glyphicon-chevron-left:hover {
+	color: #00995D;
+}
+
+header div.header {
+	height: auto;
+	background-color: #FFFFFF;
+	border-style: solid;
+	border-width: 0 0 2px 0	;
+	border-bottom-color: #00995D;
+}
+
+
+/*Content section - escolhas conteúdos*/
+
+div.space-top {
+	margin: 0 auto;
+	width: 100%;
+	height: 43px;
+}
+
+div.choose {
+	display: block;
+}
+
+div.choose-content {
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+	height: 200px;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+div.choose-content div {
+	display: block;
+	font-family: "unimed-bold", tahoma, sans-serif;
+	font-size: 30px;
+	font-height: bold;
+	text-align: center;
+}
+
+div.choose-content div a {
+	display: block;
+	text-decoration: none;
+	overflow: hidden;
+}
+
+div.choose-content div a p {
+	padding: 30px;
+	padding-top: 55px;
+}
+
+div#choose-one {
+	background-color: #F47920;
+	margin-top: 10px;
+}
+
+div#choose-one div a {
+	color: #FFFFFF;
+}
+
+div#choose-one:hover {
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+	transition: 0.2s;
+}
+
+div#choose-two {
+	background-color: #411564;
+	margin-bottom: 10px;
+}
+
+div#choose-two div a {
+	color: #FFFFFF;
+}
+
+div#choose-two:hover {
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+	transition: 0.2s;
+}
+
+@media screen and (min-width: 395px) {
+	div.choose-content {
+		min-height: 300px;
+		height: auto;
+	}
+	div.choose-content div a p{
+		text-align: center;
+		padding: 95px;
+	}
+}
+
+@media screen and (min-width: 650px) {
+	div.choose-content {
+		display: inline-block;
+		float: left;
+		width: 50%;
+		min-height: 400px;
+	}
+	div.choose-content div a p{
+		text-align: center;
+		padding: 150px 55px 55px 55px;
+		margin: none;
+	}
+	div#choose-one {
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	div.choose-content div {
+	font-size: 40px;
+	}
+}
+
+div.bg-blank {
+	display: none;
+	background-color: #fafafa;
+	opacity: 0.1;
+	min-height: 50px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+	width: 100%;
+}
+
+div.blank-bottom {
+	display: none;
+	background-color: #fafafa;
+	opacity: 0.2;
+	min-height: 80px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+	width: 100%;
+}
+
+
+@media screen and (min-width: 650px) {
+	div.bg-blank {
+		display: block;
+	}
+	div.blank-bottom {
+		display:block;
+	}
+}
+
+
+/*Footer - conteúdo do rodapé*/
+
+div.footer-content {
+	display: block;
+	background-color: #00995D;
+	padding: 25px 0;
+	color: #FFFFFF;
+	font-family: "unimed-regular";
+	font-size: 17px;
+	overflow: hidden;
+	width: 100%;
+}
+
+div.footer-content span#email-hack {
+	font-weight: bold;
+}
+
+div.footer-content div.footer-inside {
+	display: inline-block;
+	margin: 0 auto;
+	width: 50%;
+	padding: 10px;
+}
+
+div.footer-content div.footer-logo {
+	text-align: right;
+	float:left;
+}
+
+div.footer-content div.footer-logo img {
+	max-width: 250px;
+}
+
+div.footer-content div.footer-adress {
+	text-align: left;
+}
+
+@media screen and (max-width: 725px) {
+	div.footer-content div.footer-inside {
+		display: block;
+		margin: 0 auto;
+		width: 100%;
+		text-align: center;
+	}
+}
+
+/*div.footer-content {
+	display: block;
+	background-color: #00995D;
+	padding: 25px 0px;
+	color: #FFFFFF;
+	font-family: "unimed-regular";
+	font-size: 17px;
+}
+
+div.footer-content span#email-hack {
+	font-weight: bold;
+}
+
+div.footer-content span {
+	margin: 0;
+	width: 100%;
+	text-align: center;
+	vertical-align: top;
+}
+
+div.footer-content span img {
+	margin: 0 auto;
+	width: auto;
+	max-width: 300px;
+	display: block;
+	text-align: center;
+}
+
+div.footer-content span img#logo-footer {
+	padding: 10px 0px;
+}
+
+div div.footer-adress {
+	display: block;
+	width: 100%;
+	text-align: center;
+
+}*/

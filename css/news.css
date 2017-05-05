@@ -1,0 +1,94 @@
+/*Estilização conteúdo geral*/
+
+content div.content {
+	
+}
+
+.hidden {
+	display: none;
+}
+
+/*Header - ícone-back*/
+
+div.header {
+	width: 100%;
+	position: fixed;
+	overflow: hidden;
+}
+
+div.header a {
+	text-decoration: none;
+}
+
+div.header .glyphicon-chevron-left {
+	display: block;
+	margin: 5px;
+	margin-left: 20px;
+	margin-bottom: 7px;
+	padding-top: 3px;
+	font-size: 25px;
+	color: #C4CBCF;
+	text-decoration: none;
+}
+
+div.header .glyphicon span {
+	font-family: "unimed-book";
+}
+
+div.header .glyphicon-chevron-left:hover {
+	color: #00995D;
+}
+
+header div.header {
+	height: auto;
+	background-color: #FFFFFF;
+	border-style: solid;
+	border-width: 0 0 2px 0	;
+	border-bottom-color: #00995D;
+}
+
+/*Footer - conteúdo do rodapé*/
+
+div.footer-content {
+	display: block;
+	background-color: #00995D;
+	padding: 25px 0;
+	color: #FFFFFF;
+	font-family: "unimed-regular";
+	font-size: 17px;
+	overflow: hidden;
+	width: 100%;
+}
+
+div.footer-content span#email-hack {
+	font-weight: bold;
+}
+
+div.footer-content div.footer-inside {
+	display: inline-block;
+	margin: 0 auto;
+	width: 50%;
+	padding: 10px;
+}
+
+div.footer-content div.footer-logo {
+	text-align: right;
+	float:left;
+}
+
+div.footer-content div.footer-logo img {
+	max-width: 250px;
+}
+
+div.footer-content div.footer-adress {
+	text-align: left;
+}
+
+@media screen and (max-width: 725px) {
+	div.footer-content div.footer-inside {
+		display: block;
+		margin: 0 auto;
+		width: 100%;
+		text-align: center;
+	}
+}

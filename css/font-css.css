@@ -1,0 +1,22 @@
+/*Fonte própria Unimed, links*/
+
+@font-face {
+	font-family: "unimed-regular";
+	src: url("../fonts/unimedsans-regular.otf") format("opentype");
+	font-weight: normal; 
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "unimed-book";
+	src: url("../fonts/unimedsans-book.otf") format("opentype");
+	font-weight: normal; 
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "unimed-bold";
+	src: url("../fonts/unimedsans-bold.otf") format("opentype");
+	font-weight: normal; 
+	font-style: normal;
+}

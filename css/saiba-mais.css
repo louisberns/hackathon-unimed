@@ -1,0 +1,201 @@
+/*Estilização conteúdo geral*/
+
+content div.content {
+	
+}
+
+.hidden {
+	display: none;
+}
+
+/*Header - ícone-back*/
+
+div.header {
+	width: 100%;
+	position: fixed;
+	overflow: hidden;
+}
+
+div.header a {
+	text-decoration: none;
+}
+
+div.header .glyphicon-chevron-left {
+	display: block;
+	margin: 5px;
+	margin-left: 20px;
+	margin-bottom: 7px;
+	padding-top: 3px;
+	font-size: 25px;
+	color: #C4CBCF;
+	text-decoration: none;
+}
+
+div.header .glyphicon span {
+	font-family: "unimed-book";
+}
+
+div.header .glyphicon-chevron-left:hover {
+	color: #00995D;
+}
+
+header div.header {
+	height: auto;
+	background-color: #FFFFFF;
+	border-style: solid;
+	border-width: 0 0 2px 0	;
+	border-bottom-color: #00995D;
+}
+
+
+/*Content section - textos referências*/
+
+div section.section-content {
+	display: block;
+	padding: 10px 0;
+}
+
+section div.section-text {
+	padding: 5px 55px;
+	padding-bottom: 7px;
+}
+
+section div.section-text h1 {
+	font-family: "unimed-bold";
+}
+
+section#section-one div.section-text p a:hover {
+	color: #ED1651;
+}
+
+div.section-text h1 {
+	text-align: left;
+}
+
+div.section-text p {
+	text-align: justify;
+	font-family: "unimed-regular";
+	line-height: 1.5em;
+	font-size: 17px;
+}
+
+div section#section-one {
+	padding-top: 45px;
+	background-color: #FFFFFF;
+	color: #0A5F55;
+}
+
+div section#section-one ul {
+	font-family: "unimed-regular";
+	font-size: 17px;
+	line-height: 1.5em
+}
+
+section ul li {
+	list-style-type: none;
+}
+
+div section#section-two {
+	background-color: #0A5F55;
+	color: #FFFFFF;
+}
+
+div section#section-three {
+	background-color: #FFFFFF;
+	color: #0A5F55;
+}
+
+section#section-three div.section-text p {
+	text-align: left;
+	word-wrap:break-word;
+}
+
+section#section-three div.section-text p a:hover {
+	color: #ED1651;
+}
+
+/*Footer - conteúdo do rodapé*/
+
+div.footer-content {
+	display: block;
+	background-color: #00995D;
+	padding: 25px 0;
+	color: #FFFFFF;
+	font-family: "unimed-regular";
+	font-size: 17px;
+	overflow: hidden;
+	width: 100%;
+}
+
+div.footer-content span#email-hack {
+	font-weight: bold;
+}
+
+div.footer-content div.footer-inside {
+	display: inline-block;
+	margin: 0 auto;
+	width: 50%;
+	padding: 10px;
+}
+
+div.footer-content div.footer-logo {
+	text-align: right;
+	float:left;
+}
+
+div.footer-content div.footer-logo img {
+	max-width: 250px;
+}
+
+div.footer-content div.footer-adress {
+	text-align: left;
+}
+
+@media screen and (max-width: 725px) {
+	div.footer-content div.footer-inside {
+		display: block;
+		margin: 0 auto;
+		width: 100%;
+		text-align: center;
+	}
+}
+
+/*div.footer-content {
+	display: block;
+	background-color: #00995D;
+	padding: 25px 0px;
+	color: #FFFFFF;
+	font-family: "unimed-regular";
+	font-size: 17px;
+}
+
+div.footer-content span#email-hack {
+	font-weight: bold;
+}
+
+div.footer-content span {
+	margin: 0;
+	width: 100%;
+	text-align: center;
+	vertical-align: top;
+}
+
+div.footer-content span img {
+	margin: 0 auto;
+	width: auto;
+	max-width: 300px;
+	display: block;
+	text-align: center;
+}
+
+div.footer-content span img#logo-footer {
+	padding: 10px 0px;
+}
+
+div div.footer-adress {
+	display: block;
+	width: 100%;
+	text-align: center;
+
+}*/
+
